@@ -1,7 +1,7 @@
 puts "How much money do you want to convert?"
 amount = gets.chomp().to_i
 
-def usd_to_eur
+def usd_to_eur(amount)
   euro=(amount*1.20)
   puts euro
 end
